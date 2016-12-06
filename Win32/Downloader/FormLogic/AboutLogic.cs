@@ -15,7 +15,7 @@ namespace Downloader.FormLogic
         {
             
             jsclass = null;
-
+            Url = "https://google.de";
         }
 
         

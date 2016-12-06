@@ -16,7 +16,7 @@ namespace Downloader.FormLogic
         }
 
         public HtmlForm form;
-
+        public string Url;
         public JavaScriptLogic.JSLogic jsclass;
 
     }
