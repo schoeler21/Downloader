@@ -16,7 +16,7 @@ namespace Downloader
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new HtmlForm(new FormLogic.AboutLogic()));
         }
     }
 }
