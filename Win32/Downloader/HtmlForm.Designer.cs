@@ -1,4 +1,11 @@
-﻿namespace Downloader
+﻿/* This program uses 
+ CefSharp           Copyright © 2010-2016 The CefSharp Authors, https://github.com/cefsharp/CefSharp (License https://github.com/cefsharp/CefSharp/blob/master/LICENSE)
+ jQuery             Copyright JS Foundation and other contributors, https://js.foundation/ (License https://github.com/jquery/jquery/blob/master/LICENSE.txt)
+ Bootstrap          Copyright (c) 2011-2016 Twitter, Inc. https://github.com/twbs/bootstrap/ (License https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE)
+                    Copyright (c) 2011-2016 The Bootstrap Authors
+ Superhero Style    Copyright (c) Copyright 2012-2016 Thomas Park https://bootswatch.com/ (License https://github.com/thomaspark/bootswatch/blob/gh-pages/LICENSE)
+ */
+namespace Downloader
 {
     partial class HtmlForm
     {
@@ -36,7 +43,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(822, 489);
             this.Name = "HtmlForm";
-            this.Text = "Form1";
+            this.Text = "Donwload Manager";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.HtmlForm_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
