@@ -1,17 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using MahApps.Metro.Controls;
 using MahApps.Metro.Controls.Dialogs;
 using System.Timers;
@@ -36,8 +26,6 @@ namespace MetroDownloader
             //Erstellt eine Liste mit der Klasse "Download"
             MainWindow.downloads = new List<Download>();
             t.Start();
-
-
         }
 
         private void T_Elapsed(object sender, ElapsedEventArgs e)
@@ -54,7 +42,6 @@ namespace MetroDownloader
             downloadList.ItemsSource = null;
             downloadList.ItemsSource = downloads;
         }
-
 
         /// <summary>
         /// Aufgerufen, wenn man auf "Link hinzufügen" klickt
@@ -93,9 +80,6 @@ namespace MetroDownloader
 
             //Fügt den die URL der Liste hinzu
             MainWindow.downloads.Add(new Download(url, fileDialog.FileName));
-
-        }
-
-        
+        } 
     }
 }

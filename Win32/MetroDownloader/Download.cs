@@ -1,17 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Net;
-using System.Net.Http;
 using System.ComponentModel;
 
 namespace MetroDownloader
 {
     public class Download
     {
-
         /// <summary>
         /// Der aktuelle Status des Downloads
         /// </summary>
@@ -40,8 +34,7 @@ namespace MetroDownloader
         /// <param name="_filename">Lokaler Pfad zum Speichern</param>
         public Download(string _url, string _filename)
         {
-
-            this.status = DownloadStatus.Downloading.ToString();
+            this.status = "Herunterladen...";
             url = _url;
             try
             {
@@ -75,18 +68,5 @@ namespace MetroDownloader
         {
             this.status = "Fertig";
         }
-
-        
-
-    }
-
-    
-
-    public enum DownloadStatus
-    {
-        Downloading,
-        Failed,
-        Finished,
-        Paused
     }
 }
