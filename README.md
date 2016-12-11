@@ -1,2 +1,4 @@
 # Downloader
-A simple downloader with a nice GUI.
+Einfacher Downloader mit der Metro UI
+
+Design: MahApps.Metro (https://github.com/MahApps/MahApps.Metro/)
