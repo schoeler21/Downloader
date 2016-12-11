@@ -1,0 +1,34 @@
+﻿<Controls:MetroWindow x:Class="MetroDownloader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:MetroDownloader"
+        mc:Ignorable="d"
+        Title="MetroDownloader" Height="350" Width="525">
+    <Grid>
+        <DataGrid x:Name="downloadList" AutoGenerateColumns="False" Height="276" VerticalAlignment="Top">
+            <DataGrid.Columns>
+
+                <DataGridTextColumn Header="Name" Binding="{Binding url}" IsReadOnly="True" />
+
+
+                <DataGridTemplateColumn Header="Progress">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <ProgressBar Value="{Binding progress}" MinWidth="100" />
+                                <Label Content="{Binding progress}" HorizontalAlignment="Right" HorizontalContentAlignment="Right"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Status" Binding="{Binding status}" IsReadOnly="True" />
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="button" Content="URL Hinzufügen" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="134" Click="button_Click"/>
+    </Grid>
+</Controls:MetroWindow>

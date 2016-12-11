@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Downloader", "Downloader\Downloader.csproj", "{9C044197-31E0-4258-9B2E-AA90A5426D2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetroDownloader", "MetroDownloader\MetroDownloader.csproj", "{414D884F-CF9D-4843-BA8C-F8B253A28361}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9C044197-31E0-4258-9B2E-AA90A5426D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C044197-31E0-4258-9B2E-AA90A5426D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C044197-31E0-4258-9B2E-AA90A5426D2C}.Debug|x86.ActiveCfg = Debug|x86
-		{9C044197-31E0-4258-9B2E-AA90A5426D2C}.Debug|x86.Build.0 = Debug|x86
-		{9C044197-31E0-4258-9B2E-AA90A5426D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C044197-31E0-4258-9B2E-AA90A5426D2C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9C044197-31E0-4258-9B2E-AA90A5426D2C}.Release|x86.ActiveCfg = Release|x86
-		{9C044197-31E0-4258-9B2E-AA90A5426D2C}.Release|x86.Build.0 = Release|x86
+		{414D884F-CF9D-4843-BA8C-F8B253A28361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414D884F-CF9D-4843-BA8C-F8B253A28361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414D884F-CF9D-4843-BA8C-F8B253A28361}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{414D884F-CF9D-4843-BA8C-F8B253A28361}.Debug|x86.Build.0 = Debug|Any CPU
+		{414D884F-CF9D-4843-BA8C-F8B253A28361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414D884F-CF9D-4843-BA8C-F8B253A28361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{414D884F-CF9D-4843-BA8C-F8B253A28361}.Release|x86.ActiveCfg = Release|Any CPU
+		{414D884F-CF9D-4843-BA8C-F8B253A28361}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

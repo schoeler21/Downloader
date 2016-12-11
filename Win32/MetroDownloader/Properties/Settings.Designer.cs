@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Downloader.Properties
+namespace MetroDownloader.Properties
 {
 
 
